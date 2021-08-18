@@ -1,0 +1,16 @@
+
+  {
+    "name": "my-cool-site",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd My-Cool-Site.client && npm i",
+      "setup:server": "cd My-Cool-Site && npm i",
+      "start": "node My-Cool-Site/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
